@@ -1,0 +1,25 @@
+Dependencies for Project 'CMSIS_DbgFunc', Target 'STM32F103': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x4BD10896)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\CMSIS_DbgFunc\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\Keil\STM32F1xx_DFP\1.0.2\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\lst\startup_stm32f10x_md.lst --xref -o .\obj\startup_stm32f10x_md.o --depend .\obj\startup_stm32f10x_md.d)
+F (.\system_stm32f10x.c)(0x4BEA518C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\CMSIS_DbgFunc\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x4BD10894)
+I (core_cm3.h)(0x4BA964DA)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (core_cmInstr.h)(0x4BA964C4)
+I (core_cmFunc.h)(0x4BA964BA)
+I (system_stm32f10x.h)(0x4BD10896)
+F (.\core_cm3.c)(0x4BA964CC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\CMSIS_DbgFunc\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD-o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+F (.\CMSIS_DbgFunc.c)(0x4BEA4C56)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\CMSIS_DbgFunc\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\obj\cmsis_dbgfunc.o --omf_browse .\obj\cmsis_dbgfunc.crf --depend .\obj\cmsis_dbgfunc.d)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (stm32f10x.h)(0x4BD10894)
+I (core_cm3.h)(0x4BA964DA)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (core_cmInstr.h)(0x4BA964C4)
+I (core_cmFunc.h)(0x4BA964BA)
+I (system_stm32f10x.h)(0x4BD10896)
+F (.\Retarget.c)(0x4BC7BFBE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\CMSIS_DbgFunc\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\rt_misc.h)(0x574E3E26)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+F (.\Abstract.txt)(0x4BECBDDE)()

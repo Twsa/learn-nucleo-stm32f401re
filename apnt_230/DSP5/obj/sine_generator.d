@@ -1,0 +1,11 @@
+.\obj\sine_generator.o: src\sine_generator.c
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
+.\obj\sine_generator.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\obj\sine_generator.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
+.\obj\sine_generator.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\string.h
+.\obj\sine_generator.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\math.h
+.\obj\sine_generator.o: .\include\sine_generator.h
