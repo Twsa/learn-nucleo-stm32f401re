@@ -22,8 +22,6 @@ stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_gpio_ex.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma_ex.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cortex.h
-stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc.h
-stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc_ex.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_can.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_crc.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cryp.h
@@ -51,7 +49,6 @@ stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_rtc.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_rtc_ex.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_sd.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_ll_sdmmc.h
-stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_spi.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_tim.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_tim_ex.h
 stm32f4xx-nucleo\main.o: ..\LIB\Inc\HAL\stm32f4xx_hal_uart.h

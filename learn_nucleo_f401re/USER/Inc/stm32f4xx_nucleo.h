@@ -52,7 +52,7 @@
    
 /* To be defined only if the board is provided with the related shield */
 /* https://www.adafruit.com/products/802 */
-#define ADAFRUIT_TFT_JOY_SD_ID802
+//#define ADAFRUIT_TFT_JOY_SD_ID802
    
 /** @addtogroup BSP
   * @{
@@ -264,14 +264,6 @@ typedef enum
   * @{
   */
 uint32_t         BSP_GetVersion(void);  
-void             BSP_LED_Init(Led_TypeDef Led);
-void             BSP_LED_DeInit(Led_TypeDef Led);
-void             BSP_LED_On(Led_TypeDef Led);
-void             BSP_LED_Off(Led_TypeDef Led);
-void             BSP_LED_Toggle(Led_TypeDef Led);
-void             BSP_PB_Init(Button_TypeDef Button, ButtonMode_TypeDef ButtonMode);
-void             BSP_PB_DeInit(Button_TypeDef Button);
-uint32_t         BSP_PB_GetState(Button_TypeDef Button);
 #ifdef HAL_ADC_MODULE_ENABLED
 uint8_t          BSP_JOY_Init(void);
 JOYState_TypeDef BSP_JOY_GetState(void);
