@@ -1,0 +1,21 @@
+--cpu Cortex-M4.fp
+"stm32f4xx-nucleo\startup_stm32f401xe.o"
+"stm32f4xx-nucleo\system_stm32f4xx.o"
+"stm32f4xx-nucleo\stm32f4xx_hal.o"
+"stm32f4xx-nucleo\stm32f4xx_hal_cortex.o"
+"stm32f4xx-nucleo\stm32f4xx_hal_gpio.o"
+"stm32f4xx-nucleo\stm32f4xx_hal_rcc.o"
+"stm32f4xx-nucleo\stm32f4xx_nucleo.o"
+"stm32f4xx-nucleo\retarget_usart.o"
+"stm32f4xx-nucleo\serial.o"
+"stm32f4xx-nucleo\rtx_blinky.o"
+"stm32f4xx-nucleo\sys.o"
+"stm32f4xx-nucleo\buttons_nucleo_f401re.o"
+"stm32f4xx-nucleo\led_nucleo_f401re.o"
+"C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+"C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+"stm32f4xx-nucleo\rtx_conf_cm.o"
+--strict --scatter "STM32F4xx-Nucleo\STM32F4xx-Nucleo.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F4xx-Nucleo.map" -o STM32F4xx-Nucleo\STM32F4xx-Nucleo.axf

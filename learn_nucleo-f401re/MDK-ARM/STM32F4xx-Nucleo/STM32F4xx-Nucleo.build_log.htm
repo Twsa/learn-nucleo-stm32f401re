@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Twsa Liu, None, LIC=AK12Z-JKD1L-RDJK3-AY3QY-21WVD-29PK4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\C_installContent\keil5Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+F:\GitHub_Repositories\learn-nucleo-stm32f401re\learn_nucleo-f401re\MDK-ARM\RTX.uvprojx
+Project File Date:  05/01/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\C_installContent\keil5Core\ARM\ARMCC\Bin'
+Rebuild target 'STM32F4xx-Nucleo'
+assembling startup_stm32f401xe.s...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_nucleo.c...
+compiling retarget_usart.c...
+compiling Serial.c...
+compiling RTX_Blinky.c...
+compiling sys.c...
+compiling Buttons_NUCLEO_F401RE.c...
+compiling LED_NUCLEO_F401RE.c...
+compiling RTX_Conf_CM.c...
+linking...
+Program Size: Code=7198 RO-data=570 RW-data=84 ZI-data=3956  
+"STM32F4xx-Nucleo\STM32F4xx-Nucleo.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ::CMSIS:RTOS:1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 4.3.0
+   * Component: DSP Version: 1.4.6
+   * Component: Keil RTX Version: 4.80.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.2.0.pack
+                ::Board Support:LED:1.00 (API)
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: LED Version: 1.00
+   * Component: Buttons Version: 1.00
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32NUCLEO_BSP.1.6.0.pack
+                Keil.NUCLEO-F401RE::Board Support:LED:1.1.0
+                STMicroelectronics Nucleo Boards Support and Examples
+   * Component: LED Version: 1.1.0
+   * Component: Buttons Version: 1.1.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\GitHub_Repositories\learn-nucleo-stm32f401re\learn_nucleo-f401re\MDK-ARM\RTE
+  C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC
+  C:\C_installContent\keilPack\Keil\MDK-Middleware\7.2.0\Board
+  C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.80.0
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib
+
+   * Component: ::Board Support:LED:1.00 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Board Support:Buttons:1.00 (API)
+      Include file:  Board\Board_Buttons.h
+
+   * Component: Keil.NUCLEO-F401RE::Board Support:LED:1.1.0
+      Source file:   Boards\ST\NUCLEO-F401RE\Common\LED_NUCLEO_F401RE.c
+
+   * Component: Keil.NUCLEO-F401RE::Board Support:Buttons:1.1.0
+      Source file:   Boards\ST\NUCLEO-F401RE\Common\Buttons_NUCLEO_F401RE.c
+Build Time Elapsed:  00:00:21
+</pre>
+</body>
+</html>

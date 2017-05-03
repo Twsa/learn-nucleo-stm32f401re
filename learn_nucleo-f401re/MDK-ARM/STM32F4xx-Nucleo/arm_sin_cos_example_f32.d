@@ -1,0 +1,10 @@
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\DSP\src\arm_sin_cos_example_f32.c
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\math.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\arm_math.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\core_cm4.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\core_cmInstr.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\cmsis_armcc.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\core_cmFunc.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: ..\LIB\Inc\CMSIS\core_cmSimd.h
+stm32f4xx-nucleo\arm_sin_cos_example_f32.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\string.h

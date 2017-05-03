@@ -1,0 +1,62 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;simple_example
+    2 00000000                 PRESERVE8                    ;表示这里的代
+                                                            码需要双字栈�
+                                                            ��齐
+    3 00000000                 THUMB                        ;表示使用的是
+                                                            THUMB代码
+    4 00000000                 AREA             |.text|,CODE,READONLY 
+                                                            ;CODE区域起始
+    5 00000000                 EXPORT           _main
+    6 00000000                 ENTRY                        ;main函数入口
+    7 00000000         _main   FUNCTION
+    8 00000000         ;;初始化寄存器
+    9 00000000         ;MOV r0,#10  ;初始化循环计数器
+   10 00000000         ;MOV r1,#0   ;初始化结果
+   11 00000000         ;;计算10+9+8+...+1
+   12 00000000         ;loop
+   13 00000000         ;ADD r1,r0   ;R1=R1 + R0
+   14 00000000         ;SUBS r0,#1  ;减小R0，更新标志("S"后缀)
+   15 00000000         ;BNE loop    ;若结果非0，则跳到loop，结果位�
+                       ��R1中
+   16 00000000         ;deadloop
+   17 00000000         ;B deadloop  ;无限循环
+   18 00000000                 ENDFUNC
+   19 00000000                 END                          ;文件结束
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=stm32f4xx-nucleo\simple_example.d -ostm32f4xx-nucleo\simple_exa
+mple.o -I..\ASM\s -I..\ASM\sct -IF:\GitHub_Repositories\learn-nucleo-stm32f401r
+e\learn_nucleo-f401re\MDK-ARM\RTE -IC:\C_installContent\keilPack\ARM\CMSIS\4.5.
+0\CMSIS\Include -IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Driver
+s\CMSIS\Device\ST\STM32F4xx\Include --predefine="__UVISION_VERSION SETA 521" --
+predefine="_RTE_ SETA 1" --predefine="STM32F401xE SETA 1" --list=simple_example
+.lst ..\ASM\s\simple_example.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 4 in file ..\ASM\s\simple_example.s
+   Uses
+      None
+Comment: .text unused
+_main 00000000
+
+Symbol: _main
+   Definitions
+      At line 7 in file ..\ASM\s\simple_example.s
+   Uses
+      At line 5 in file ..\ASM\s\simple_example.s
+Comment: _main used once
+2 symbols
+335 symbols in table

@@ -1,9 +1,9 @@
 Dependencies for Project 'sine', Target 'ST Link Flash': (DO NOT MODIFY !)
-F (.\src\DirtyFilter.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\dirtyfilter.o --omf_browse .\obj\dirtyfilter.crf --depend .\obj\dirtyfilter.d)
+F (.\src\DirtyFilter.c)(0x5905E46E)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\dirtyfilter.o --omf_browse .\obj\dirtyfilter.crf --depend .\obj\dirtyfilter.d)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x5822CD58)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5822CD6A)
-I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x590544C8)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
@@ -21,7 +21,7 @@ I (.\include\low_pass_filter.h)(0x53DBFBFB)
 I (.\RTE\RTE_Components.h)(0x590442A8)
 F (.\src\sine_generator.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\sine_generator.o --omf_browse .\obj\sine_generator.crf --depend .\obj\sine_generator.d)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h)(0x5625A350)
-I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x590544C8)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
@@ -32,7 +32,7 @@ I (C:\C_installContent\keil5Core\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (.\include\sine_generator.h)(0x53DBFBFB)
 F (.\src\low_pass_filter.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\low_pass_filter.o --omf_browse .\obj\low_pass_filter.crf --depend .\obj\low_pass_filter.d)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h)(0x5625A350)
-I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x590544C8)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
@@ -48,7 +48,7 @@ I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 F (.\Serial_STM32F4.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\serial_stm32f4.o --omf_browse .\obj\serial_stm32f4.crf --depend .\obj\serial_stm32f4.d)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5822CD58)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5822CD6A)
-I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x590544C8)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
@@ -56,18 +56,17 @@ I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5822CD6A)
 F (.\abstract.txt)(0x53DBFBFB)()
+F (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56245D06)()
 F (RTE\CMSIS\RTX_Conf_CM.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\rtx_conf_cm.o --omf_browse .\obj\rtx_conf_cm.crf --depend .\obj\rtx_conf_cm.d)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562747DE)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stddef.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556D30E4)
-F (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56245D06)()
-F (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4l_math.lib)(0x56283F70)()
 F (RTE\Device\STM32F407VG\startup_stm32f407xx.s)(0x5822CD58)(--cpu Cortex-M4 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" --nowarn-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\lst\startup_stm32f407xx.lst --xref -o .\obj\startup_stm32f407xx_1.o --depend .\obj\startup_stm32f407xx_1.d)
-F (RTE\Device\STM32F407VG\system_stm32f4xx.c)(0x59044965)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\system_stm32f4xx_1.o --omf_browse .\obj\system_stm32f4xx_1.crf --depend .\obj\system_stm32f4xx_1.d)
+F (RTE\Device\STM32F407VG\system_stm32f4xx.c)(0x59045291)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\system_stm32f4xx_1.o --omf_browse .\obj\system_stm32f4xx_1.crf --depend .\obj\system_stm32f4xx_1.d)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5822CD58)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5822CD6A)
-I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x590544C8)
 I (C:\C_installContent\keil5Core\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
