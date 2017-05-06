@@ -322,7 +322,7 @@
             <wLevel>1</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -332,7 +332,7 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>--C99</MiscControls>
+              <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F401xE,USE_STM32F4XX_NUCLEO,ARM_MATH_CM4,__FPU_PRESENT =1</Define>
               <Undefine></Undefine>
               <IncludePath>..\LIB\Inc\CMSIS;..\LIB\Inc\HAL;..\USER\Inc;..\STARTUP;..\DSP\include;..\HARDWARE\Serial;..\SYS;..\HARDWARE\LED;..\HARDWARE\LCD1602A</IncludePath>
@@ -380,9 +380,9 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\LED\led.c</FilePath>
+              <FileName>led.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\HARDWARE\LED\led.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -414,20 +414,40 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\Serial\Serial.c</FilePath>
             </File>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYS\sys.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>DSP</GroupName>
           <Files>
             <File>
-              <FileName>arm_abs_f32_test.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\DSP\src\arm_abs_f32_test.c</FilePath>
+              <FileName>dsp_test.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\MYTEST\dsp_test.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>abs.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\DSP\src\abs.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>add.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\DSP\src\add.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>SYS</GroupName>
+          <Files>
+            <File>
+              <FileName>sys.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\SYS\sys.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>thread_manage.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\SYS\thread_manage.cpp</FilePath>
             </File>
           </Files>
         </Group>

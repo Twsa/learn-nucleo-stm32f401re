@@ -1,4 +1,4 @@
-stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.c
+stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.cpp
 stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.h
 stm32f4xx-nucleo\led.o: ..\SYS\sys.h
 stm32f4xx-nucleo\led.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
@@ -61,3 +61,6 @@ stm32f4xx-nucleo\led.o: ..\LIB\Inc\HAL\stm32f4xx_hal_pcd.h
 stm32f4xx-nucleo\led.o: ..\LIB\Inc\HAL\stm32f4xx_ll_usb.h
 stm32f4xx-nucleo\led.o: ..\LIB\Inc\HAL\stm32f4xx_hal_pcd_ex.h
 stm32f4xx-nucleo\led.o: ..\LIB\Inc\HAL\stm32f4xx_hal_hcd.h
+stm32f4xx-nucleo\led.o: ..\SYS\thread_manage.h
+stm32f4xx-nucleo\led.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+stm32f4xx-nucleo\led.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h

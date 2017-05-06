@@ -6,6 +6,6 @@
 	 int32_t Led_On(void);
  	/***************led off*************/
 	 int32_t Led_Off(void);
-	 
+	 void led_thread(void const *argument);
 #endif
 
