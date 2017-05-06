@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Fputc' 
+ * Project: 'DSP' 
  * Target:  'STM32F4xx-Nucleo' 
  */
 
@@ -16,5 +16,7 @@
  */
 #define CMSIS_device_header "stm32f4xx.h"
 
+#define RTE_CMSIS_RTOS                  /* CMSIS-RTOS */
+        #define RTE_CMSIS_RTOS_RTX              /* CMSIS-RTOS Keil RTX */
 
 #endif /* RTE_COMPONENTS_H */

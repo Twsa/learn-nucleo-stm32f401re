@@ -61,6 +61,7 @@ Package Vendor: ARM
                 CMSIS (Cortex Microcontroller Software Interface Standard)
    * Component: RTOS Version: 1.0
    * Component: CORE Version: 4.3.0
+   * Component: DSP Version: 1.4.6
    * Component: Keil RTX Version: 4.80.0
 
 Package Vendor: Keil
@@ -80,6 +81,10 @@ Package Vendor: Keil
    * Component: ::CMSIS:RTOS:1.0 (API)
 
    * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4l_math.lib
 
    * Component: ARM::CMSIS:RTOS:Keil RTX:4.80.0
       Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
@@ -103,7 +108,7 @@ Package Vendor: Keil
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
 Target not created.
-Build Time Elapsed:  00:00:40
+Build Time Elapsed:  00:00:10
 </pre>
 </body>
 </html>

@@ -1,7 +1,6 @@
 stm32f4xx-nucleo\dirtyfilter.o: ..\DSP\src\DirtyFilter.c
 stm32f4xx-nucleo\dirtyfilter.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdio.h
-stm32f4xx-nucleo\dirtyfilter.o: ..\SYS\sys.h
-stm32f4xx-nucleo\dirtyfilter.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+stm32f4xx-nucleo\dirtyfilter.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h
 stm32f4xx-nucleo\dirtyfilter.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h
 stm32f4xx-nucleo\dirtyfilter.o: ..\LIB\Inc\CMSIS\core_cm4.h
 stm32f4xx-nucleo\dirtyfilter.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h
@@ -70,3 +69,5 @@ stm32f4xx-nucleo\dirtyfilter.o: ..\DSP\include\sine_generator.h
 stm32f4xx-nucleo\dirtyfilter.o: ..\DSP\include\rtxtime.h
 stm32f4xx-nucleo\dirtyfilter.o: ..\DSP\include\low_pass_filter.h
 stm32f4xx-nucleo\dirtyfilter.o: F:\GitHub_Repositories\learn-nucleo-stm32f401re\learn_nucleo-f401re\MDK-ARM\RTE\RTE_Components.h
+stm32f4xx-nucleo\dirtyfilter.o: ..\HARDWARE\Serial\Serial.h
+stm32f4xx-nucleo\dirtyfilter.o: ..\SYS\sys.h

@@ -15,7 +15,7 @@
 
 //#include <stdlib.h>
 #include <stdio.h>
-#include "sys.h"
+#include "STM32F4xx.h"
 #include "cmsis_os.h" 
 
 #include "arm_math.h"
@@ -23,6 +23,8 @@
 #include "rtxtime.h"
 #include "low_pass_filter.h"
 #include "RTE_Components.h"             // Component selection
+#include "Serial.h"
+#include "sys.h"
 
 osThreadId tid_sine_gen;
 osThreadId tid_noise_gen;
@@ -171,7 +173,6 @@ osThreadDef(disturb_gen, osPriorityNormal, 1, 0);
 osThreadDef(filter_tsk, osPriorityNormal, 1, 0);
 osThreadDef(sync_tsk, osPriorityNormal, 1, 0);
 
-
 /*
 *********************************************************************
 *
@@ -180,11 +181,12 @@ osThreadDef(sync_tsk, osPriorityNormal, 1, 0);
 *********************************************************************
 */
 void init() {
+	SER_Initialize();
 	// compute coefficients for IIR sine generators
 	sine_generator_init_q15(&Noise_set, NOISE_FREQ, SAMPLING_FREQ);
   sine_generator_init_q15(&Signal_set, SIGNAL_FREQ, SAMPLING_FREQ);
 	printf ("Sine Generator Initialised\n\r");
-	
+  
 	// initialize low pass filter
   low_pass_filter_init();
 	printf ("Low Pass Filter Initialised\n\r");
@@ -205,16 +207,16 @@ void init() {
 
 int main(void)
 {
-
-  /* Configure the System clock to 48 MHz */
-  SystemCoreClockConfigure();
-  SystemCoreClockUpdate();
-  // initialize peripherals
-  HAL_Init();
+  
+	  SystemCoreClockConfigure();                              // configure System Clock
+    SystemCoreClockUpdate();
+	  
+  osKernelInitialize();                          //initialize CMSIS-RTOS	
 	init();
-	
+
   printf ("Application Running\n\r");
 	osSignalSet(tid_sine_gen, 0x0001);
+  osKernelStart();
 	osDelay(osWaitForever);
 	while(1);
 }

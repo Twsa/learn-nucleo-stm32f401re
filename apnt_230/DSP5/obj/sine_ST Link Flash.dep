@@ -56,6 +56,7 @@ I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5822CD6A)
 F (.\abstract.txt)(0x53DBFBFB)()
+F (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4l_math.lib)(0x56283F70)()
 F (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x56245D06)()
 F (RTE\CMSIS\RTX_Conf_CM.c)(0x53DBFBFB)(-c --cpu Cortex-M4 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I .\include -I .\src -I .\RTE -I .\RTE\Device\STM32F407VG-IF:\GitHub_Repositories\learn-nucleo-stm32f401re\apnt_230\DSP5\RTE-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx -DARM_MATH_CM4 -D__DBG_ITM -DHSE_VALUE="8000000" --C99-o .\obj\rtx_conf_cm.o --omf_browse .\obj\rtx_conf_cm.crf --depend .\obj\rtx_conf_cm.d)
 I (C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x562747DE)

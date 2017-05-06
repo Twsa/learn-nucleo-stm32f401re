@@ -57,6 +57,7 @@
 #ifndef OS_STKSIZE
  #define OS_STKSIZE     50      // this stack size value is in words
 #endif
+
  
 //   <o>Main Thread stack size [bytes] <64-32768:8><#/4>
 //   <i> Defines stack size for main thread.
@@ -74,9 +75,9 @@
  
 //   <o>Total stack size [bytes] for threads with user-provided stack size <0-1048576:8><#/4>
 //   <i> Defines the combined stack size for threads with user-provided stack size.
-//   <i> Default: 0
+//   <i> Default: 1024
 #ifndef OS_PRIVSTKSIZE
- #define OS_PRIVSTKSIZE 0       // this stack size value is in words
+ #define OS_PRIVSTKSIZE 256       // this stack size value is in words
 #endif
  
 //   <q>Stack overflow checking
@@ -98,7 +99,7 @@
 //     <1=> Privileged mode
 //   <i> Default: Privileged mode
 #ifndef OS_RUNPRIV
- #define OS_RUNPRIV     1
+ #define OS_RUNPRIV     0
 #endif
  
 // </h>
