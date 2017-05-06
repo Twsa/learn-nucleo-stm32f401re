@@ -420,19 +420,19 @@
           <GroupName>DSP</GroupName>
           <Files>
             <File>
+              <FileName>sub.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\DSP\src\basic_math\sub.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>cosine.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\DSP\src\fast_math\cosine.cpp</FilePath>
+            </File>
+            <File>
               <FileName>dsp_test.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\MYTEST\dsp_test.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>abs.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\DSP\src\abs.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>add.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\DSP\src\add.cpp</FilePath>
             </File>
           </Files>
         </Group>

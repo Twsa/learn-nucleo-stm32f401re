@@ -141,8 +141,8 @@
         </Book>
       </Books>
       <DebugOpt>
-        <uSim>0</uSim>
-        <uTrg>1</uTrg>
+        <uSim>1</uSim>
+        <uTrg>0</uTrg>
         <sLdApp>1</sLdApp>
         <sGomain>1</sGomain>
         <sRbreak>1</sRbreak>
@@ -249,6 +249,61 @@
           <WinNumber>1</WinNumber>
           <ItemText>add_tmp_B</ItemText>
         </Ww>
+        <Ww>
+          <count>7</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>dot_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>8</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>mult_tmp_A</ItemText>
+        </Ww>
+        <Ww>
+          <count>9</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>mult_tmp_B</ItemText>
+        </Ww>
+        <Ww>
+          <count>10</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>mult_tmp_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>11</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>negate_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>12</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>offset_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>13</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>offset_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>14</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>scale_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>15</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>sub_pDst</ItemText>
+        </Ww>
+        <Ww>
+          <count>16</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>cosine_i</ItemText>
+        </Ww>
+        <Ww>
+          <count>17</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>cosine_tmp</ItemText>
+        </Ww>
       </WatchWindow1>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -288,8 +343,8 @@
       <LogicAnalyzers>
         <Wi>
           <IntNumber>0</IntNumber>
-          <FirstString>`add_tmp_pDst</FirstString>
-          <SecondString>0080000000000000000000000000000000001440000000000000000000000000000000006164645F746D705F7044737400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000F03F1900000000000000000000000000000000000000980A0008</SecondString>
+          <FirstString>`cosine_tmp</FirstString>
+          <SecondString>FF0000000000000000000000000000000000144000000000000000000000000000000000636F73696E655F746D70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000F03F1B00000000000000000000000000000000000000E8070008</SecondString>
         </Wi>
       </LogicAnalyzers>
       <SystemViewers>
@@ -408,8 +463,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\MYTEST\dsp_test.cpp</PathWithFileName>
-      <FilenameWithoutPath>dsp_test.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\DSP\src\basic_math\sub.cpp</PathWithFileName>
+      <FilenameWithoutPath>sub.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -420,8 +475,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\DSP\src\abs.cpp</PathWithFileName>
-      <FilenameWithoutPath>abs.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\DSP\src\fast_math\cosine.cpp</PathWithFileName>
+      <FilenameWithoutPath>cosine.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -432,8 +487,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\DSP\src\add.cpp</PathWithFileName>
-      <FilenameWithoutPath>add.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\MYTEST\dsp_test.cpp</PathWithFileName>
+      <FilenameWithoutPath>dsp_test.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
