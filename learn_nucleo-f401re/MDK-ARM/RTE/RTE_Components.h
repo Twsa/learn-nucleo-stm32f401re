@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'DSP' 
+ * Project: 'ADC' 
  * Target:  'STM32F4xx-Nucleo' 
  */
 

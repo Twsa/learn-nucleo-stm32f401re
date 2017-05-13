@@ -16,7 +16,7 @@
 #ifndef SERIAL_H
 #define SERIAL_H
 
-extern void SER_Initialize(void);
+void SER_Initialize (void);
 extern int  SER_GetChar   (void);
 extern int  SER_PutChar   (int c);
 

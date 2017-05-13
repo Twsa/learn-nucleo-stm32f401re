@@ -1,0 +1,13 @@
+stm32f4xx-nucleo\conjugate.o: ..\DSP\src\complex_math\conjugate.cpp
+stm32f4xx-nucleo\conjugate.o: ..\DSP\include\complex_math.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\arm_math.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\core_cm4.h
+stm32f4xx-nucleo\conjugate.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\core_cmInstr.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\cmsis_armcc.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\core_cmFunc.h
+stm32f4xx-nucleo\conjugate.o: ..\LIB\Inc\CMSIS\core_cmSimd.h
+stm32f4xx-nucleo\conjugate.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\string.h
+stm32f4xx-nucleo\conjugate.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\math.h
+stm32f4xx-nucleo\conjugate.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+stm32f4xx-nucleo\conjugate.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h

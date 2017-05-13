@@ -1,4 +1,4 @@
-stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.cpp
+stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.c
 stm32f4xx-nucleo\led.o: ..\HARDWARE\LED\led.h
 stm32f4xx-nucleo\led.o: ..\SYS\sys.h
 stm32f4xx-nucleo\led.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h

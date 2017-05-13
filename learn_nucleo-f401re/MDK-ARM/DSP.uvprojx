@@ -380,9 +380,9 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
-              <FileName>led.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\HARDWARE\LED\led.cpp</FilePath>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\LED\led.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -420,19 +420,14 @@
           <GroupName>DSP</GroupName>
           <Files>
             <File>
-              <FileName>sub.cpp</FileName>
+              <FileName>conjugate.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>..\DSP\src\basic_math\sub.cpp</FilePath>
+              <FilePath>..\DSP\src\complex_math\conjugate.cpp</FilePath>
             </File>
             <File>
-              <FileName>cosine.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\DSP\src\fast_math\cosine.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>dsp_test.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\MYTEST\dsp_test.cpp</FilePath>
+              <FileName>dsp_test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MYTEST\dsp_test.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -440,14 +435,14 @@
           <GroupName>SYS</GroupName>
           <Files>
             <File>
-              <FileName>sys.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\SYS\sys.cpp</FilePath>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYS\sys.c</FilePath>
             </File>
             <File>
-              <FileName>thread_manage.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\SYS\thread_manage.cpp</FilePath>
+              <FileName>thread_manage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYS\thread_manage.c</FilePath>
             </File>
           </Files>
         </Group>

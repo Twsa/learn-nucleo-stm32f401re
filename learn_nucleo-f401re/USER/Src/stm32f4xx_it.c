@@ -38,9 +38,10 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
 #include "stm32f4xx_it.h"
-   
+#include "sys.h"
+#include "board_driver.h"
+
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
   */
@@ -67,6 +68,7 @@
   */
 void NMI_Handler(void)
 {
+		HAL_RCC_NMI_IRQHandler();
 }
 
 /**
@@ -126,9 +128,9 @@ void UsageFault_Handler(void)
   * @param  None
   * @retval None
   */
-void SVC_Handler(void)
-{
-}
+//void SVC_Handler(void)
+//{
+//}
 
 /**
   * @brief  This function handles Debug Monitor exception.
@@ -139,24 +141,39 @@ void DebugMon_Handler(void)
 {
 }
 
+/******************************************************************************/
+/*                 STM32F4xx Peripherals Interrupt Handlers                   */
+/*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
+/*  available peripheral interrupt handler's name please refer to the startup */
+/*  file (startup_stm32f4xx.s).                                               */
+/******************************************************************************/
+/**
+  * @brief  This function handles External lines 10 to 15 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void EXTI15_10_IRQHandler(void)
+{
+  HAL_GPIO_EXTI_IRQHandler(KEY_BUTTON_PIN);
+}
 /**
   * @brief  This function handles PendSVC exception.
   * @param  None
   * @retval None
   */
-void PendSV_Handler(void)
-{
-}
+//void PendSV_Handler(void)
+//{
+//}
 
-/**
-  * @brief  This function handles SysTick Handler.
-  * @param  None
-  * @retval None
-  */
-void SysTick_Handler(void)
-{
-  HAL_IncTick();
-}
+///**
+//  * @brief  This function handles SysTick Handler.
+//  * @param  None
+//  * @retval None
+//  */
+//void SysTick_Handler(void)
+//{
+//  HAL_IncTick();
+//}
 
 /******************************************************************************/
 /*                 STM32F4xx Peripherals Interrupt Handlers                   */

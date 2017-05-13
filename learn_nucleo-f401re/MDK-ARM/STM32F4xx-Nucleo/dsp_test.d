@@ -1,4 +1,4 @@
-stm32f4xx-nucleo\dsp_test.o: ..\MYTEST\dsp_test.cpp
+stm32f4xx-nucleo\dsp_test.o: ..\MYTEST\dsp_test.c
 stm32f4xx-nucleo\dsp_test.o: ..\LIB\Inc\CMSIS\arm_math.h
 stm32f4xx-nucleo\dsp_test.o: ..\LIB\Inc\CMSIS\core_cm4.h
 stm32f4xx-nucleo\dsp_test.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h

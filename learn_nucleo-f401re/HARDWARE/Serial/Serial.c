@@ -87,8 +87,15 @@ int SER_PutChar (int ch) {
 int SER_GetChar (void) {
 
 #ifdef __DBG_ITM
-  if (ITM_CheckChar())
-    return ITM_ReceiveChar();
+	volatile int32_t ITM_RxBuffer=0x5AA55AA5;                  //初始化为EMPTY
+//  if (ITM_CheckChar())
+//    return ITM_ReceiveChar();
+		char tmp;
+	  while( ITM_CheckChar()==0);                                        //等待缓冲为空
+	  tmp = ITM_ReceiveChar();
+	  if(tmp == 13) tmp=10;
+	  return (ITM_SendChar(tmp) );
+	
 #else
   if (USARTx->SR & 0x0020)
     return (USARTx->DR);
@@ -97,3 +104,15 @@ int SER_GetChar (void) {
   return (-1);
 }
 
+///*  retarget.c 中支持用户输入的代码  */
+//volatile int32_t ITM_RxBuffer=0x5AA55AA5;                  //初始化为EMPTY
+//int fgetc(FILE * f)
+//{
+//	  char tmp;
+//	  while( ITM_CheckChar()==0);                                        //等待缓冲为空
+//	  tmp = ITM_ReceiveChar();
+//	  if(tmp == 13) tmp=10;
+//	  return (ITM_SendChar(tmp) );
+//}
+
+///*  retarget.c 用于Keil MDK-ARM 中的UART消息输入/输出  */

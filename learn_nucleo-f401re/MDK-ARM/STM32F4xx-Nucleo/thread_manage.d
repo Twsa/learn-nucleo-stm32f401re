@@ -1,10 +1,8 @@
-stm32f4xx-nucleo\thread_manage.o: ..\SYS\thread_manage.cpp
+stm32f4xx-nucleo\thread_manage.o: ..\SYS\thread_manage.c
 stm32f4xx-nucleo\thread_manage.o: ..\SYS\thread_manage.h
 stm32f4xx-nucleo\thread_manage.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
 stm32f4xx-nucleo\thread_manage.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stdint.h
 stm32f4xx-nucleo\thread_manage.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h
-stm32f4xx-nucleo\thread_manage.o: ..\DSP\include\basic_math.h
-stm32f4xx-nucleo\thread_manage.o: ..\DSP\include\fast_math.h
 stm32f4xx-nucleo\thread_manage.o: ..\HARDWARE\LED\led.h
 stm32f4xx-nucleo\thread_manage.o: ..\SYS\sys.h
 stm32f4xx-nucleo\thread_manage.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h

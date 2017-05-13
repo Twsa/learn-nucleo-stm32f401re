@@ -99,7 +99,7 @@
 //     <1=> Privileged mode
 //   <i> Default: Privileged mode
 #ifndef OS_RUNPRIV
- #define OS_RUNPRIV     0
+ #define OS_RUNPRIV     1
 #endif
  
 // </h>
@@ -226,7 +226,7 @@
 void os_idle_demon (void) {
  
   for (;;) {
-		    __WFE();                            /* Enter sleep mode                   */
+//		    __WFE();                            /* Enter sleep mode                   */
     /* HERE: include optional user code to be executed when no thread runs.*/
   }
 }

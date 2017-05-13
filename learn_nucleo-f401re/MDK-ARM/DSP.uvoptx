@@ -304,6 +304,11 @@
           <WinNumber>1</WinNumber>
           <ItemText>cosine_tmp</ItemText>
         </Ww>
+        <Ww>
+          <count>18</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>conjugate_pDst</ItemText>
+        </Ww>
       </WatchWindow1>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -340,13 +345,6 @@
       <Lin2Executable></Lin2Executable>
       <Lin2ConfigFile></Lin2ConfigFile>
       <bLin2Auto>0</bLin2Auto>
-      <LogicAnalyzers>
-        <Wi>
-          <IntNumber>0</IntNumber>
-          <FirstString>`cosine_tmp</FirstString>
-          <SecondString>FF0000000000000000000000000000000000144000000000000000000000000000000000636F73696E655F746D70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000F03F1B00000000000000000000000000000000000000E8070008</SecondString>
-        </Wi>
-      </LogicAnalyzers>
       <SystemViewers>
         <Entry>
           <Name>OS Support\Event Viewer</Name>
@@ -375,12 +373,12 @@
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>1</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\LED\led.cpp</PathWithFileName>
-      <FilenameWithoutPath>led.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\LED\led.c</PathWithFileName>
+      <FilenameWithoutPath>led.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -463,32 +461,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\DSP\src\basic_math\sub.cpp</PathWithFileName>
-      <FilenameWithoutPath>sub.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\DSP\src\complex_math\conjugate.cpp</PathWithFileName>
+      <FilenameWithoutPath>conjugate.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>4</GroupNumber>
       <FileNumber>7</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\DSP\src\fast_math\cosine.cpp</PathWithFileName>
-      <FilenameWithoutPath>cosine.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>4</GroupNumber>
-      <FileNumber>8</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\MYTEST\dsp_test.cpp</PathWithFileName>
-      <FilenameWithoutPath>dsp_test.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\MYTEST\dsp_test.c</PathWithFileName>
+      <FilenameWithoutPath>dsp_test.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -502,25 +488,25 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>9</FileNumber>
-      <FileType>8</FileType>
+      <FileNumber>8</FileNumber>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\SYS\sys.cpp</PathWithFileName>
-      <FilenameWithoutPath>sys.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\SYS\sys.c</PathWithFileName>
+      <FilenameWithoutPath>sys.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>10</FileNumber>
-      <FileType>8</FileType>
+      <FileNumber>9</FileNumber>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\SYS\thread_manage.cpp</PathWithFileName>
-      <FilenameWithoutPath>thread_manage.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\SYS\thread_manage.c</PathWithFileName>
+      <FilenameWithoutPath>thread_manage.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
