@@ -23,6 +23,8 @@ stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_gpio_ex.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma_ex.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cortex.h
+stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc.h
+stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc_ex.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_can.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_crc.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cryp.h
@@ -67,3 +69,4 @@ stm32f4xx-nucleo\stm32f4xx_it.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\SYS\board_driver.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\HARDWARE\UART2\uart2.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\HARDWARE\Serial\Serial.h
+stm32f4xx-nucleo\stm32f4xx_it.o: ..\HARDWARE\ADC\adc.h

@@ -41,7 +41,7 @@
 #include "stm32f4xx_it.h"
 #include "sys.h"
 #include "board_driver.h"
-
+#include "adc.h"
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
   */
@@ -167,10 +167,43 @@ void USART2_IRQHandler(void)
 	HAL_UART_IRQHandler(&uart2_handle);
 }
 
+/**
+  * @brief  This function handles DMA1_Stream6_IRQHandler exception.
+  * @param  None
+  * @retval None
+  */
 void DMA1_Stream6_IRQHandler(void)
 {
 	HAL_DMA_IRQHandler(uart2_handle.hdmatx);
 }  
+/**
+  * @brief  This function handles DMA1_Stream5_IRQHandler exception.
+  * @param  None
+  * @retval None
+  */
+void DMA1_Stream5_IRQHandler(void)
+{
+	HAL_DMA_IRQHandler(uart2_handle.hdmarx);
+}  
+/**
+  * @brief  This function handles DMA1_Stream5_IRQHandler exception.
+  * @param  None
+  * @retval None
+  */
+void ADC_IRQHandler(void)
+{
+	;
+}	
+
+/**
+  * @brief  This function handles DMA2_Stream4_IRQHandler exception.
+  * @param  None
+  * @retval None
+  */
+void DMA2_Stream4_IRQHandler(void)
+{
+	HAL_DMA_IRQHandler(ADC_Handle_Structure.DMA_Handle);
+}	
 /**
   * @brief  This function handles PendSVC exception.
   * @param  None

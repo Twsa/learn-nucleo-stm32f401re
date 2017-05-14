@@ -1,4 +1,5 @@
 --cpu Cortex-M4.fp
+"stm32f4xx-nucleo\adc.o"
 "stm32f4xx-nucleo\uart2.o"
 "stm32f4xx-nucleo\startup_stm32f401xe.o"
 "stm32f4xx-nucleo\system_stm32f4xx.o"
@@ -9,7 +10,8 @@
 "stm32f4xx-nucleo\clock_config.o"
 "stm32f4xx-nucleo\gpio_config.o"
 "stm32f4xx-nucleo\sys.o"
-"stm32f4xx-nucleo\dma_config.o"
+"stm32f4xx-nucleo\stm32f4xx_hal_adc_ex.o"
+"stm32f4xx-nucleo\stm32f4xx_hal_adc.o"
 "stm32f4xx-nucleo\stm32f4xx_hal_rcc.o"
 "stm32f4xx-nucleo\stm32f4xx_hal_cortex.o"
 "stm32f4xx-nucleo\stm32f4xx_hal_gpio.o"

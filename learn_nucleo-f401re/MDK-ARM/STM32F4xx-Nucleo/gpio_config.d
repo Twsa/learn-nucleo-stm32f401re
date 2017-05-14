@@ -22,6 +22,8 @@ stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_gpio_ex.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma_ex.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cortex.h
+stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc.h
+stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc_ex.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_can.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_crc.h
 stm32f4xx-nucleo\gpio_config.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cryp.h

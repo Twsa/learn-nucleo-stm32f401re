@@ -1,4 +1,5 @@
 stm32f4xx-nucleo\adc.o: ..\HARDWARE\ADC\adc.c
+stm32f4xx-nucleo\adc.o: ..\SYS\board_driver.h
 stm32f4xx-nucleo\adc.o: ..\SYS\sys.h
 stm32f4xx-nucleo\adc.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 stm32f4xx-nucleo\adc.o: C:\C_installContent\keilPack\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h
@@ -22,6 +23,8 @@ stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_gpio_ex.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_dma_ex.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cortex.h
+stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc.h
+stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_adc_ex.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_can.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_crc.h
 stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_cryp.h
@@ -63,4 +66,6 @@ stm32f4xx-nucleo\adc.o: ..\LIB\Inc\HAL\stm32f4xx_hal_hcd.h
 stm32f4xx-nucleo\adc.o: ..\SYS\thread_manage.h
 stm32f4xx-nucleo\adc.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
 stm32f4xx-nucleo\adc.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f4xx-nucleo\adc.o: ..\HARDWARE\UART2\uart2.h
+stm32f4xx-nucleo\adc.o: ..\HARDWARE\Serial\Serial.h
 stm32f4xx-nucleo\adc.o: ..\HARDWARE\ADC\adc.h

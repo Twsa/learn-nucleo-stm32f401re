@@ -55,11 +55,11 @@ void DMA_Config(void)
     __HAL_LINKDMA(&uart2_handle, hdmarx, hdma_rx);
 		
 	/* NVIC configuration for DMA transfer complete interrupt (USARTx_TX) */
-	HAL_NVIC_SetPriority(DMA1_Stream6_IRQn, 0, 0x0B);
+	HAL_NVIC_SetPriority(DMA1_Stream6_IRQn, 0, 13);
 	HAL_NVIC_EnableIRQ(DMA1_Stream6_IRQn);
 
 	/* NVIC configuration for DMA transfer complete interrupt (USARTx_RX) */
-	HAL_NVIC_SetPriority(DMA1_Stream5_IRQn, 0, 0X0D);   
+	HAL_NVIC_SetPriority(DMA1_Stream5_IRQn, 0, 14);   
 	HAL_NVIC_EnableIRQ(DMA1_Stream5_IRQn);   
 	
 //	HAL_DMA_Start(&hdma_tx,(uint32_t)&testbuffer,(uint32_t)&(USART2->DR)/*USART2 数字寄存器*/,sizeof(testbuffer));  

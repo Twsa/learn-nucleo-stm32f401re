@@ -41,9 +41,8 @@ int main(void)
 	SER_Initialize();
 	BSP_PB_Init(BUTTON_KEY,BUTTON_MODE_EXTI);
 	GPIO_Config();
-	DMA_Config();
-	Uart2_Init();
-  Uart2_Test();
+//	Uart2_Init();
+//  Uart2_Test();
 
   /* -3- Toggle PA05 IO in an infinite loop */  
 
@@ -53,5 +52,6 @@ int main(void)
 //	 /* Insert delay 100 ms */
 //   osDelay(100);
 //  }
+   ADC1_Config();
    while(1);
 }
