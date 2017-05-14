@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F401xE,USE_STM32F4XX_NUCLEO,ARM_MATH_CM4,__FPU_PRESENT =1</Define>
               <Undefine></Undefine>
-              <IncludePath>..\LIB\Inc\CMSIS;..\LIB\Inc\HAL;..\USER\Inc;..\STARTUP;..\DSP\include;..\HARDWARE\Serial;..\SYS;..\HARDWARE\LED;..\HARDWARE\LCD1602A;..\MYTEST;..\HARDWARE\ADC</IncludePath>
+              <IncludePath>..\LIB\Inc\CMSIS;..\LIB\Inc\HAL;..\USER\Inc;..\STARTUP;..\DSP\include;..\HARDWARE\Serial;..\SYS;..\HARDWARE\LED;..\HARDWARE\LCD1602A;..\MYTEST;..\HARDWARE\ADC;..\HARDWARE\UART2</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -378,6 +378,13 @@
       <Groups>
         <Group>
           <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>uart2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\UART2\uart2.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>STARTUP</GroupName>
@@ -423,16 +430,6 @@
           <GroupName>SYS</GroupName>
           <Files>
             <File>
-              <FileName>view_clock_config.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYS\view_clock_config.c</FilePath>
-            </File>
-            <File>
-              <FileName>view_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYS\view_gpio.c</FilePath>
-            </File>
-            <File>
               <FileName>clock_config.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SYS\clock_config.c</FilePath>
@@ -446,6 +443,11 @@
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SYS\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>dma_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYS\dma_config.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -471,6 +473,16 @@
               <FileName>stm32f4xx_hal.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\Src\stm32f4xx_hal.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LIB\Src\stm32f4xx_hal_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LIB\Src\stm32f4xx_hal_uart.c</FilePath>
             </File>
           </Files>
         </Group>

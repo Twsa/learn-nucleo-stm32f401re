@@ -5,6 +5,7 @@ Date:2017/05/13
 **/
 #include "sys.h"
 #include "board_driver.h"
+#include "uart2.h"
 
 void GPIO_Config(void)
 {
@@ -24,8 +25,10 @@ void GPIO_Config(void)
 	
 	HAL_GPIO_Init(GPIOA,&GPIO_Init_Structure_LED);
 	HAL_GPIO_Init(GPIOA,&GPIO_Init_Structure_Input);
-	
+	USART2_GPIO_Config();                                //USART2 硬件初始化
 }
+
+
 
 /** @defgroup STM32F4XX_NUCLEO_LOW_LEVEL_Private_Variables STM32F4XX NUCLEO LOW LEVEL Private Variables
   * @{
@@ -70,7 +73,7 @@ void BSP_PB_Init(Button_TypeDef Button, ButtonMode_TypeDef ButtonMode)
     HAL_GPIO_Init(BUTTON_PORT[Button], &GPIO_InitStruct);
     
     /* Enable and set Button EXTI Interrupt to the lowest priority */
-    HAL_NVIC_SetPriority((IRQn_Type)(BUTTON_IRQn[Button]), 0x0F, 0x00);
+    HAL_NVIC_SetPriority((IRQn_Type)(BUTTON_IRQn[Button]), 0x0F, 0x0F);
     HAL_NVIC_EnableIRQ((IRQn_Type)(BUTTON_IRQn[Button]));
   }
 }

@@ -64,3 +64,5 @@ stm32f4xx-nucleo\gpio_config.o: ..\SYS\thread_manage.h
 stm32f4xx-nucleo\gpio_config.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
 stm32f4xx-nucleo\gpio_config.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h
 stm32f4xx-nucleo\gpio_config.o: ..\SYS\board_driver.h
+stm32f4xx-nucleo\gpio_config.o: ..\HARDWARE\UART2\uart2.h
+stm32f4xx-nucleo\gpio_config.o: ..\HARDWARE\Serial\Serial.h

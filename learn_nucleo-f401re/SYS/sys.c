@@ -18,3 +18,16 @@ uint32_t BSP_GetVersion(void)
 {
   return __STM32F4xx_NUCLEO_BSP_VERSION;
 }
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @param  None
+  * @retval None
+  */
+ void Error_Handler(void)
+{
+  /* User may add here some code to deal with this error */
+  while(1)
+  {
+  }
+}

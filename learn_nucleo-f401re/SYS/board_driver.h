@@ -1,6 +1,9 @@
 #ifndef __BOARD_DRIVER_H
 #define __BOARD_DRIVER_H
-  #include "sys.h"
+ #include "sys.h"
+#include "uart2.h"
+#include "Serial.h"
+
 typedef enum
 {
 	BUTTON_USER =0 ,

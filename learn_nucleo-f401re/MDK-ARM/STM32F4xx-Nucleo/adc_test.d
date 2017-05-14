@@ -69,4 +69,5 @@ stm32f4xx-nucleo\adc_test.o: ..\LIB\Inc\HAL\stm32f4xx_hal_pcd_ex.h
 stm32f4xx-nucleo\adc_test.o: ..\LIB\Inc\HAL\stm32f4xx_hal_hcd.h
 stm32f4xx-nucleo\adc_test.o: ..\SYS\thread_manage.h
 stm32f4xx-nucleo\adc_test.o: ..\SYS\board_driver.h
+stm32f4xx-nucleo\adc_test.o: ..\HARDWARE\UART2\uart2.h
 stm32f4xx-nucleo\adc_test.o: ..\HARDWARE\ADC\adc.h

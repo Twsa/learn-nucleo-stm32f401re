@@ -22,8 +22,7 @@
 #include "adc.h"
 
 
-	uint16_t temp=0;
-char textbuffer[40]; 
+
 int main(void)
 {
 //		SCB->CCR |=SCB_CCR_STKALIGN_Msk;       //使能双字栈对齐
@@ -36,21 +35,23 @@ int main(void)
              handled in milliseconds basis.
        - Low Level Initialization
      */
-  HAL_Init();
+//  HAL_Init();
 	
 	SystemClock_Config();
 	SER_Initialize();
 	BSP_PB_Init(BUTTON_KEY,BUTTON_MODE_EXTI);
 	GPIO_Config();
-	
-	View_GPIO();
-	View_Clock();
+	DMA_Config();
+	Uart2_Init();
+  Uart2_Test();
+
   /* -3- Toggle PA05 IO in an infinite loop */  
-	
-  while (1)
-  {
-			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
-	 /* Insert delay 100 ms */
-   osDelay(100);
-  }
+
+//  while (1)
+//  {
+//			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_5);
+//	 /* Insert delay 100 ms */
+//   osDelay(100);
+//  }
+   while(1);
 }

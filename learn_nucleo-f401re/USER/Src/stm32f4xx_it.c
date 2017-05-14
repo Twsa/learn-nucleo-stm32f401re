@@ -156,6 +156,21 @@ void EXTI15_10_IRQHandler(void)
 {
   HAL_GPIO_EXTI_IRQHandler(KEY_BUTTON_PIN);
 }
+
+/**
+  * @brief  This function handles USART2exception.
+  * @param  None
+  * @retval None
+  */
+void USART2_IRQHandler(void)
+{
+	HAL_UART_IRQHandler(&uart2_handle);
+}
+
+void DMA1_Stream6_IRQHandler(void)
+{
+	HAL_DMA_IRQHandler(uart2_handle.hdmatx);
+}  
 /**
   * @brief  This function handles PendSVC exception.
   * @param  None

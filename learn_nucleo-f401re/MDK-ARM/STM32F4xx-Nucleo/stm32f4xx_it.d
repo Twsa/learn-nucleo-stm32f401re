@@ -65,3 +65,5 @@ stm32f4xx-nucleo\stm32f4xx_it.o: ..\SYS\thread_manage.h
 stm32f4xx-nucleo\stm32f4xx_it.o: C:\C_installContent\keilPack\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
 stm32f4xx-nucleo\stm32f4xx_it.o: C:\C_installContent\keil5Core\ARM\ARMCC\Bin\..\include\stddef.h
 stm32f4xx-nucleo\stm32f4xx_it.o: ..\SYS\board_driver.h
+stm32f4xx-nucleo\stm32f4xx_it.o: ..\HARDWARE\UART2\uart2.h
+stm32f4xx-nucleo\stm32f4xx_it.o: ..\HARDWARE\Serial\Serial.h
